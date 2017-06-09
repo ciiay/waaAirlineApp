@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="derby_server-15c8474508f-2c4bb5c9a670109" provider="generic" driver="derby_server" name="Derby - waatest" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="1527" server="" database="waatest" url="jdbc:derby://localhost:1527/waatest;create=false" type="dev">
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" save-password="false">
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" save-password="false">
+				<property name="sshConnectTimeout" value="10000"/>
+				<property name="port" value="22"/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+		</connection>
+	</data-source>
+	<data-source id="derby_server-15c892d14af-5bd727481ad10a43" provider="generic" driver="derby_server" name="Derby - sun-appserv-samples" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="1527" server="" database="sun-appserv-samples" url="jdbc:derby://localhost:1527/sun-appserv-samples;create=false" user="APP" type="dev">
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" save-password="false">
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" save-password="false">
+				<property name="sshConnectTimeout" value="10000"/>
+				<property name="port" value="22"/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+		</connection>
+	</data-source>
+	<data-source id="derby_server-15c892ee301-598441950051c1ec" provider="generic" driver="derby_server" name="Derby - sun-appse" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="1527" server="" database="sun-appserv" url="jdbc:derby://localhost:1527/sun-appserv;create=false" type="dev">
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" save-password="false">
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" save-password="false">
+				<property name="sshConnectTimeout" value="10000"/>
+				<property name="port" value="22"/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+		</connection>
+	</data-source>
+	<data-source id="derby_server-15c892f4681-5975fd8edd13f82b" provider="generic" driver="derby_server" name="Derby - sun-appserv-samples" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="1527" server="" database="sun-appserv-samples" url="jdbc:derby://localhost:1527/sun-appserv-samples;create=false" user="APP" type="dev">
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" save-password="false">
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" save-password="false">
+				<property name="sshConnectTimeout" value="10000"/>
+				<property name="port" value="22"/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+		</connection>
+	</data-source>
+	<data-source id="derby_server-15c8931ee8e-23c63de478684fcd" provider="generic" driver="derby_server" name="Derby - sun-appserv-samples" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="1527" server="" database="sun-appserv-samples" url="jdbc:derby://localhost:1527/sun-appserv-samples;create=false" user="APP" type="dev">
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" save-password="false">
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" save-password="false">
+				<property name="sshConnectTimeout" value="10000"/>
+				<property name="port" value="22"/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+		</connection>
+	</data-source>
+	<data-source id="derby_server-15c8938cc89-57f3ca96de179c7" provider="generic" driver="derby_server" name="Derby - sun-appserv-samples" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="1527" server="" database="sun-appserv-samples" url="jdbc:derby://localhost:1527/sun-appserv-samples;create=false" user="APP" type="dev">
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" save-password="false">
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" save-password="false">
+				<property name="sshConnectTimeout" value="10000"/>
+				<property name="port" value="22"/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+		</connection>
+	</data-source>
+	<data-source id="derby_server-15c8aadfd2c-2ae583f555999fc7" provider="generic" driver="derby_server" name="Derby - sun-appserv-samples" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="1527" server="" database="sun-appserv-samples" url="jdbc:derby://localhost:1527/sun-appserv-samples;create=false" user="APP" type="dev">
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" save-password="false">
+				<property name="sshConnectTimeout" value="10000"/>
+				<property name="port" value="22"/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" save-password="false">
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+		</connection>
+	</data-source>
+	<data-source id="derby_server-15c8abaadc1-57df19b8e5d90afc" provider="generic" driver="derby_server" name="Derby - sun-appserv-samples" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="1527" server="" database="sun-appserv-samples" url="jdbc:derby://localhost:1527/sun-appserv-samples;create=false" user="APP" type="dev">
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" save-password="false">
+				<property name="sshConnectTimeout" value="10000"/>
+				<property name="port" value="22"/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" save-password="false">
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+		</connection>
+	</data-source>
+	<data-source id="derby_server-15c8d6290c1-74e2b9aeb57d10bd" provider="generic" driver="derby_server" name="Derby - sun-appserv-samples" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="1527" server="" database="sun-appserv-samples" url="jdbc:derby://localhost:1527/sun-appserv-samples;create=false" user="APP" type="dev">
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" save-password="false">
+				<property name="sshConnectTimeout" value="10000"/>
+				<property name="port" value="22"/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" save-password="false">
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+		</connection>
+	</data-source>
+</data-sources>
