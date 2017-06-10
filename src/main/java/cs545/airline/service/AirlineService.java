@@ -26,20 +26,20 @@ public class AirlineService {
 	@Inject
 	private AirlineDao airlineDao;
 	
-	public void create(Airline airport) {
-		airlineDao.create(airport);
+	public void create(Airline airline) {
+		airlineDao.create(airline);
 	}
 
-	public void delete(Airline airport) {
-		airlineDao.delete(airport);
+	public void delete(Airline airline) {
+		airlineDao.delete(airline);
 	}
 
-	public Airline update(Airline airport) {
-		return airlineDao.update(airport);
+	public Airline update(Airline airline) {
+		return airlineDao.update(airline);
 	}
 
-	public Airline find(Airline airport) {
-		return airlineDao.findOne(airport.getId());
+	public Airline find(Airline airline) {
+		return airlineDao.findOne(airline.getId());
 	}
 
 	public Airline findByName(String name) {
@@ -53,4 +53,5 @@ public class AirlineService {
 	public List<Airline> findAll() {
 		return airlineDao.findAll();
 	}
+	
 }
