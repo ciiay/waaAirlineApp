@@ -89,6 +89,10 @@ public class Airport {
 	public List<Flight> getDepartures() {
 		return Collections.unmodifiableList(departures);
 	}
+	
+	public String printAirport(){
+		return "(" + this.airportcode + ")" + this.name;
+	}
 
 	/* Collection methods */
 	public boolean addArrival(Flight flight) {

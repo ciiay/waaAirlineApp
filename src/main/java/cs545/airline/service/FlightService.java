@@ -1,5 +1,6 @@
 package cs545.airline.service;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -9,6 +10,7 @@ import javax.inject.Named;
 import javax.transaction.Transactional;
 
 import cs545.airline.dao.FlightDao;
+import cs545.airline.dto.FlightFilter;
 import cs545.airline.model.Airline;
 import cs545.airline.model.Airplane;
 import cs545.airline.model.Airport;
@@ -83,4 +85,18 @@ public class FlightService {
 		return flightDao.findAll();
 	}
 
+	public List<Flight> searchFlight(FlightFilter ff) {
+		List<Flight> sr = new ArrayList<Flight>();
+		List<Flight> allFlights = flightDao.findAll();
+		for(Flight f:allFlights) {
+			if(f.getDepartureDate().contains(ff.getDepartureDate()) 
+					&& f.getDepartureTime().contains(ff.getDepartureTime())
+					&& f.getAirline().getName().contains(ff.getAirlineName())
+					&& f.getOrigin().getName().contains(ff.getDepartureAirport())
+					&& f.getDestination().getName().contains(ff.getArrivalAirport())) {
+				sr.add(f);
+			}
+		}
+		return sr;
+	}
 }

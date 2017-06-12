@@ -54,4 +54,10 @@ public class AirlineService {
 		return airlineDao.findAll();
 	}
 	
+	public void deleteAirline(Long id){
+		Airline arl = new Airline();
+		arl.setId(id);
+		delete(arl);
+	}
+	
 }
